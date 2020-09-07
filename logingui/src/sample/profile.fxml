@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1abc9c;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Profile">
+   <children>
+      <Label layoutX="53.0" layoutY="219.0" prefHeight="25.0" prefWidth="47.0" text="Name" textFill="#f2eeee" />
+      <Label layoutX="54.0" layoutY="262.0" prefHeight="17.0" prefWidth="47.0" text="Email" textFill="#fcf7f7" />
+      <Label layoutX="122.0" layoutY="223.0" textFill="#ebeaea" />
+      <Label layoutX="111.0" layoutY="262.0" prefHeight="17.0" prefWidth="130.0" textFill="#f2eded" />
+      <Button layoutX="48.0" layoutY="298.0" mnemonicParsing="false" text="Edit Profile" />
+      <Button layoutX="140.0" layoutY="298.0" mnemonicParsing="false" text="Logout" />
+      <ImageView fitHeight="179.0" fitWidth="200.0" layoutX="53.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
